@@ -1,24 +1,31 @@
 <html>
   <head>
-    <meta charset="utf-8">
     <title>♜Dark_Castle♜</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, minimum-scale=1,under-scalable=no">
     <link rel="stylesheet" href="css/css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script src="js/client.js"></script>
   </head>
   <body>
-
+    <center>
     <div id="title">
       <h1>Dark_Castle</h1>
     </div>
 
-    <div id="inscription">
+    <div id="inscription" class="box">
+      <p>This is the most addictive game ever made...</p>
       <form action="">
-        <input type="text" name="pseudo">Pseudo
-        <input type="submit" value="play">
+        <input type="text" name="pseudo" placeholder="Ton pseudo" required>
+        <input type="submit" value="Play">
       </form>
     </div>
 
+    <div class="box">
+      <p>Join a room and fight for your land</p>
+    </div>
+
+    </center>
   </body>
 </html>
