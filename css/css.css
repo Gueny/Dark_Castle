@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  color:red;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  color:red;
+
+}
+#inscription{
+  display: flex;
+  justify-content: center;
+}

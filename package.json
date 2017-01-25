@@ -1,0 +1,19 @@
+{
+  "name": "dark_castle",
+  "version": "0.0.1",
+  "description": "A multiplayer game made with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/way2key/Dark_Castle.git"
+  },
+  "author": "Olivier D'Ancona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/way2key/Dark_Castle/issues"
+  },
+  "homepage": "https://github.com/way2key/Dark_Castle#readme"
+}
