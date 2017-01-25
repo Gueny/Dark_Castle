@@ -1,6 +1,16 @@
 var app = require('express')();
 var http = require('http');
 
+realms = [];
+function newRealm(name,key){
+	var objet ={
+		name:name,
+		user:[],
+		cities:[],
+	};
+	realms[key]=objet;
+}
+
 httpServer = http.createServer(function(req, res){
 	console.log('Un utilisateur a affiche la page');
 	res.end("Voulez vous télécharger le fichier HappyTROyan.exe?");

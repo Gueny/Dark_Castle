@@ -1,6 +1,8 @@
 @font-face {
 font-family: 'DUNGRG';
 src: url('../assets/fonts/DUNGRG.ttf') format('truetype');
+font-family: 'xenippa';
+src: url('../assets/fonts/xenippa.ttf') format('truetype');
 }
 
 body {
@@ -16,11 +18,21 @@ body {
 }
 
 h1{
-  font-family: DUNGRG;
+  font-family: xenippa;
   font-size: 115px;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h2{
+  font-family: DUNGRG;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: auto;
+  margin: auto;
 }
 
 .box {
@@ -46,8 +58,29 @@ input {
 }
 
 p {
+  margin: auto;
   color: #FFF;
   font-size: 16px;
-  padding: 20px;
+  padding: 10px;
   opacity: 0.7;
+}
+
+#realms{
+  display: flex;
+}
+
+.realms{
+  border-style: solid;
+  border-width: 4px;
+  border-color: blue;
+  color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 120;
+  width: 120px;
+  outline: none;
+  padding: 0 5px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1);
+
 }
